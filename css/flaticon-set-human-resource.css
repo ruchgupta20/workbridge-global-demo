@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "FlaticonSetHumanResource";
+    src: url("../fonts/flaticon-set-human-resource.woff2") format("woff2"),
+url("../fonts/flaticon-set-human-resource.woff") format("woff"),
+url("../fonts/flaticon-set-human-resource.eot#iefix") format("embedded-opentype"),
+url("../fonts/flaticon-set-human-resource.ttf") format("truetype"),
+url("../fonts/flaticon-set-human-resource.svg") format("svg")
+}
+
+i[class^="flaticon-set-"]:before, i[class*=" flaticon-set-"]:before {
+    font-family: FlaticonSetHumanResource !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-set-resource-allocation:before {
+    content: "\f101";
+}
+.flaticon-set-teamwork:before {
+    content: "\f102";
+}
+.flaticon-set-resource:before {
+    content: "\f103";
+}
+.flaticon-set-policy-privacy:before {
+    content: "\f104";
+}
+.flaticon-set-human:before {
+    content: "\f105";
+}
+.flaticon-set-utilization:before {
+    content: "\f106";
+}
+.flaticon-set-human-resource:before {
+    content: "\f107";
+}
+.flaticon-set-stakeholder:before {
+    content: "\f108";
+}
+.flaticon-set-resources:before {
+    content: "\f109";
+}
+.flaticon-set-human-resource-1:before {
+    content: "\f10a";
+}
+.flaticon-set-human-resources:before {
+    content: "\f10b";
+}
+.flaticon-set-strategic-business:before {
+    content: "\f10c";
+}
+.flaticon-set-employee-data:before {
+    content: "\f10d";
+}
+.flaticon-set-human-resource-2:before {
+    content: "\f10e";
+}
+.flaticon-set-group:before {
+    content: "\f10f";
+}
+.flaticon-set-job-offer:before {
+    content: "\f110";
+}
+.flaticon-set-relationships:before {
+    content: "\f111";
+}
+.flaticon-set-team:before {
+    content: "\f112";
+}
+.flaticon-set-business-people:before {
+    content: "\f113";
+}
+.flaticon-set-share:before {
+    content: "\f114";
+}
+.flaticon-set-social-status:before {
+    content: "\f115";
+}
+.flaticon-set-population:before {
+    content: "\f116";
+}
+.flaticon-set-people:before {
+    content: "\f117";
+}
+.flaticon-set-user-experience:before {
+    content: "\f118";
+}
+.flaticon-set-core-focus:before {
+    content: "\f119";
+}
+.flaticon-set-potential:before {
+    content: "\f11a";
+}
+.flaticon-set-team-1:before {
+    content: "\f11b";
+}
+.flaticon-set-listing:before {
+    content: "\f11c";
+}
+.flaticon-set-blogger:before {
+    content: "\f11d";
+}
+.flaticon-set-dignity:before {
+    content: "\f11e";
+}
+
