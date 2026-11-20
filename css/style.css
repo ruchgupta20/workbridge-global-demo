@@ -52,9 +52,9 @@ License: copyright commercial
   --r: 30px; /* radius */
   --s: 50px; /* size of the inner curve*/
   --_m:/calc(2*var(--r)) calc(2*var(--r)) radial-gradient(#000 70%,#0000 72%) no-repeat;
-  --theme-color1: #ffd15b;
+  --theme-color1: #FFF7ED;
   --theme-color2: #0f1114;
-  --theme-color3: #005252;
+  --theme-color3: #4a2116;
   --theme-color4: #87c03d;
   --theme-color1-rgb: 255, 209, 91;
   --theme-color2-rgb: 15, 17, 20;
@@ -64,7 +64,7 @@ License: copyright commercial
   --theme-color2-text-color: #ffffff;
   --theme-color3-text-color: #ffffff;
   --theme-color4-text-color: #ffffff;
-  --hover-theme-color: #ffd15b;
+  --hover-theme-color: #FFF7ED;
   --theme-color-white: #ffffff;
   --theme-color-white-rgb: 255,255,255;
   --theme-color-light-gray: #F6F3EC;
@@ -78,8 +78,8 @@ License: copyright commercial
   --theme-color-dark2: #1B1F12;
   --theme-color-gray: #222222;
   --gradient-1: linear-gradient(181.35deg, rgba(5, 15, 19, 0) 1.15%, rgba(2, 223, 130, 0.1) 98.91%);
-  --text-color: #707070;
-  --headings-color: #24201f;
+  --text-color: #85451F;
+  --headings-color:#4A2116;
   --link-color: var(--theme-color1);
   --link-hover-color: var(--theme-color1);
   --body-font-family: "GT Walsheim Pro", sans-serif;
@@ -3580,7 +3580,7 @@ btn-style-four
   height: 50px;
   border: 1px solid #e1e6dc;
   padding: 15px 20px;
-  color: #707070;
+  color: #85451F;
   background: #ffffff;
 }
 [data-tm-layout=lemon] .search-popup .form-group input[type=search],
@@ -4362,7 +4362,7 @@ Main Header
 }
 @media (max-width: 1599.98px) {
   .header-style-one .header-lower .inner-container .main-box .left-box {
-    max-width: 915px;
+    max-width: 1015px;
   }
 }
 .header-style-one .header-lower .inner-container .main-box .left-box .logo-box img {
@@ -4981,7 +4981,7 @@ Main Header
   padding: 19px 0 20px;
 }
 .sticky-header .logo img {
-  max-height: 46.5px;
+  max-height: 70.5px;
 }
 .sticky-header .nav-outer {
   position: relative;
@@ -5836,7 +5836,7 @@ Section Title
   position: absolute;
   content: "";
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(11, 49, 48, 0.4)), color-stop(83%, #0B3130));
-  background-image: linear-gradient(180deg, rgba(11, 49, 48, 0.4) 0%, #0B3130 83%);
+  background-image: linear-gradient(180deg, rgba(11, 49, 48, 0.4) 0%, #4a2116 83%);
   width: 100%;
   height: 100%;
   bottom: 0;
@@ -6652,7 +6652,7 @@ Section Title
   line-height: 28px;
   font-weight: 400;
   border-bottom: 1px solid rgba(176, 159, 159, 0.2);
-  color: #707070;
+  color: #85451F;
   margin-bottom: 0;
   padding: 11px 0;
 }
@@ -8083,7 +8083,7 @@ Section Title
   position: relative;
   margin-bottom: 30px;
   border-radius: 20px;
-  background-color: var(--theme-color-white);
+  background-color: #FFF7ED;
   padding-left: 30px;
   padding-bottom: 30px;
   overflow: hidden;
@@ -8354,7 +8354,7 @@ Section Title
           transform: scale(-1) rotate(180deg);
 }
 .service-block-three .inner-block:hover .service-icon {
-  background-color: var(--theme-color3);
+  background-color: #4a2116;
   color: var(--theme-color3-text-color);
 }
 .service-block-three .inner-block:hover .shape-1 {
@@ -8746,8 +8746,7 @@ Section Title
           transform: scale(-1) rotate(180deg);
 }
 .service-block-five .inner-block:hover .service-icon {
-  background-color: var(--theme-color3);
-  color: var(--theme-color3-text-color);
+  color: #4A2116;
 }
 .service-block-five .inner-block:hover .shape-1 {
   -webkit-filter: brightness(0) invert(0);
@@ -8758,6 +8757,10 @@ Section Title
 }
 .service-block-five .inner-block:hover .content-box:before {
   height: 100%;
+}
+.service-block-five .inner-block:hover .service-icon {
+  background-color: var(--theme-color3);
+  color: var(--theme-color3-text-color);
 }
 .service-block-five .inner-block:hover .content-box .features-list li {
   color: #fff;
@@ -11357,7 +11360,7 @@ Process Section
   border-radius: 10px;
   position: relative;
   z-index: 1;
-  background-color: #f6f6f6;
+  background-color: #FFF7ED;
   overflow: hidden;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -11387,7 +11390,7 @@ Process Section
   text-align: center;
   border-radius: 10px;
   margin-bottom: 27px;
-  background-color: var(--theme-color3);
+  background-color: #4a2116;
   color: var(--theme-color1);
 }
 .why-choose-us-block .features-title {
@@ -11994,8 +11997,8 @@ Process Section
   border-radius: 10px;
   position: relative;
   z-index: 1;
-  background-color: #f6f6f6;
-  border: 1px solid #eaeaea;
+  background-color: #FFF7ED;
+  border: 1px solid #FFF7ED;
   overflow: hidden;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
@@ -12010,7 +12013,7 @@ Process Section
   height: 100%;
   width: 0;
   z-index: -1;
-  background-color: var(--theme-color3);
+  background-color: #4a2116;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -12252,7 +12255,7 @@ Process Section
   border-radius: 30px 30px 0 0;
   max-width: 1880px;
   margin: 0 auto;
-  background-color: #005252;
+  background-color: #4A2116;;
   padding-bottom: 90px;
 }
 @media (max-width: 991.98px) {
@@ -14755,7 +14758,7 @@ Process Section
 .product-block .cat {
   display: block;
   font-size: 18px;
-  color: #707070;
+  color: #85451F;
   font-style: italic;
   font-family: "Jost", sans-serif;
   margin-bottom: 5px;
