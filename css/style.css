@@ -82,8 +82,8 @@ License: copyright commercial
   --headings-color:#4A2116;
   --link-color: var(--theme-color1);
   --link-hover-color: var(--theme-color1);
-  --body-font-family: "GT Walsheim Pro", sans-serif;
-  --heading-font-family: "Work Sans", sans-serif;
+  --body-font-family: "DM Sans", sans-serif;
+  --heading-font-family: "Manrope", sans-serif;
   --body-bg: #ffffff;
   --bg-color: #F3F6F0;
   --body-font-size: 16px;
@@ -5820,16 +5820,16 @@ Section Title
 ***/
 .banner-section-two {
   position: relative;
-  padding: 483px 0 0;
+  padding: 250px 0 0;
 }
 @media (max-width: 1199.98px) {
   .banner-section-two {
-    padding: 300px 0 0;
+    padding: 200px 0 0;
   }
 }
 @media (max-width: 1024px) {
   .banner-section-two {
-    padding: 220px 0 0;
+    padding: 150px 0 0;
   }
 }
 .banner-section-two:before {
@@ -5850,6 +5850,7 @@ Section Title
   top: 0;
   left: 0;
   z-index: 0;
+  
 }
 .banner-section-two .bg-image img {
   width: 100%;
